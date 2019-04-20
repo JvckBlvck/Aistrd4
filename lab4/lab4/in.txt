@@ -1,0 +1,5 @@
+peterburg;moscow;10;20
+moscow;khabarovsk;40;35
+peterburg;khabarovsk;14;n\a
+vladivostok;khabarovsk;13;8
+vladivostok;peterburg;n\a;20
