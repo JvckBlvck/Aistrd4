@@ -7,7 +7,7 @@ using namespace std;
 void reading_cities(map<string>*cities)
 {
 	fstream in;
-	in.open("in.txt", ios::in);
+	in.open("C:\\Users\\senny\\source\\repos\\lab4\\lab4\\in.txt", ios::in);
 	in.unsetf(ios::skipws);
 	string newcity;
 	char c;
@@ -52,7 +52,7 @@ void reading_cities(map<string>*cities)
 void reading_costs(map<string>*cities, int ** matrix)
 {
 	fstream in;
-	in.open("in.txt", ios::in);
+	in.open("C:\\Users\\senny\\source\\repos\\lab4\\lab4\\in.txt", ios::in);
 	in.unsetf(ios::skipws);
 	maplist<string> citieslist = cities->get_values();
 	maplist<size_t> keyslist = cities->get_keys();
@@ -152,7 +152,7 @@ void reading_costs(map<string>*cities, int ** matrix)
 		matrix[i][i] = 0;
 }
 
-void searching(int ** matrix, size_t to, size_t from, string*way, size_t matrixsize, size_t*length)
+void searching(int ** matrix, size_t to, size_t from, string*way, size_t matrixsize, size_t*cost)
 {
 	way->clear();
 	*way += to_string(from);
@@ -169,7 +169,7 @@ void searching(int ** matrix, size_t to, size_t from, string*way, size_t matrixs
 					wayscosts[j] = wayscosts[i] + matrix[i][j];
 					ways[j] = ways[i] + '-' + to_string(j);
 				}
-	*length = wayscosts[to];
+	*cost = wayscosts[to];
 	*way += ways[to];
 }
 

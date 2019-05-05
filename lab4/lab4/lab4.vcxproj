@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="equal.h" />
     <ClInclude Include="functions.h" />
     <ClInclude Include="map.h" />
     <ClInclude Include="mapiterator.h" />

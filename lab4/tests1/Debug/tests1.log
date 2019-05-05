@@ -1,0 +1,15 @@
+﻿  tests.cpp
+c:\users\senny\source\repos\lab4\lab4\map.h(565): warning C4101: child: неиспользованная локальная переменная
+  c:\users\senny\source\repos\lab4\lab4\map.h(563): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\senny\source\repos\lab4\lab4\map.h(533): note: выполняется компиляция ссылки на экземпляр шаблон функции "void map<std::string>::remove(size_t)"
+  c:\users\senny\source\repos\lab4\lab4\map.h(531): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\senny\source\repos\lab4\lab4\map.h(170): note: выполняется компиляция ссылки на экземпляр шаблон функции "void map<std::string>::clear(void)"
+  c:\users\senny\source\repos\lab4\lab4\map.h(162): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\senny\source\repos\lab4\tests1\tests.cpp(17): note: выполняется компиляция ссылки на экземпляр шаблон функции "map<std::string>::map(void)"
+  c:\users\senny\source\repos\lab4\tests1\tests.cpp(17): note: выполняется компиляция ссылки на экземпляр шаблон класс "map<std::string>"
+c:\users\senny\source\repos\lab4\lab4\map.h(365): warning C4101: ex: неиспользованная локальная переменная
+  c:\users\senny\source\repos\lab4\lab4\map.h(358): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\senny\source\repos\lab4\lab4\map.h(568): note: выполняется компиляция ссылки на экземпляр шаблон функции "bool map<std::string>::contains(size_t)"
+  c:\users\senny\source\repos\lab4\lab4\map.h(563): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\senny\source\repos\lab4\lab4\map.h(533): note: выполняется компиляция ссылки на экземпляр шаблон функции "void map<std::string>::remove(size_t)"
+  tests1.vcxproj -> C:\Users\senny\source\repos\lab4\Debug\tests1.dll

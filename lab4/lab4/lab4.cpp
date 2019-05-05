@@ -31,13 +31,13 @@ int main()
 	cout << "What city do you fly to?\n";
 	cin >> to;
 	string way, newway;
-	size_t length;
-	searching(matrix, to, from, &way, cities.size, &length);
+	size_t cost;
+	searching(matrix, to, from, &way, cities.size, &cost);
 	waycreating(&cities, way, &newway);
-	if (length < 1000000000)
+	if (cost < 1000000000)
 	{
 		cout << "Your way is " << newway << "\n";
-		cout << "Your way`s length is " << length << "\n";
+		cout << "Your way`s cost is " << cost << "\n";
 	}
 	else
 		cout << "There are not any way\n";
